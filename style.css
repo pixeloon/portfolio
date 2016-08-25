@@ -5,7 +5,6 @@ html {
 
 
 /* For mobile phones: */
-
 .card-body {
     background-color: #FFF;
     font-size: 100%;
@@ -15,7 +14,6 @@ html {
     position: relative;
     margin: 5px auto;
     width: 75%;
-    /*min-width: 20rem;*/
     min-height: 20rem;
 }
 
@@ -26,7 +24,6 @@ html {
     }
     .page {
         width: 32%;
-        /*min-width: 20rem;*/
         display: inline-block;
     }
 }
@@ -38,7 +35,6 @@ html {
     }
     .page {
         width: 32%;
-        /*min-width: 20rem;*/
         display: inline-block;
     }
 }
@@ -52,17 +48,13 @@ body {
     display: block;
 }
 
-
 /*// ul*/
-
 .card-deck {
     margin: 0;
     padding: 0;
 }
 
-
 /*li*/
-
 .card {
     min-height: 500px;
     position: relative;
@@ -109,39 +101,45 @@ img {
 }
 
 .page {
-    /*display: inline-block;*/
     text-align: center;
     background-color: #FFF;
     border: 1px solid black;
-    /*left: 5%;*/
-    /*    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);*/
-
 }
 
-.page1, .page2, .page3, .page4, .page5, .page6 {
+.page1,
+.page2,
+.page3,
+.page4,
+.page5,
+.page6 {
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .page1 {
-      background-image: url("images/appletes_thumb.png");
+    background-image: url("images/appletes_thumb.png");
 }
+
 .page2 {
-      background-image: url("images/vision_thumb.png");
+    background-image: url("images/vision_thumb.png");
 }
+
 .page3 {
-      background-image: url("images/logo_512.jpg");
+    background-image: url("images/rebel_thumb.png");
 }
-.page4 {
-      background-image: url("images/logo_512.jpg");
+
+.page1-text, .page2-text, .page3-text {
+  opacity: 0;
 }
-.page5 {
-      background-image: url("images/logo_512.jpg");
+
+.contact-set {
+  width: 75%;
+  margin: auto;
 }
-.page6 {
-      background-image: url("images/logo_512.jpg");
+
+.contact-item {
+  display: inline-block;
+  width: 32%
 }
 
 .footer {
