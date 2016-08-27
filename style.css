@@ -72,7 +72,6 @@ img {
     height: auto;
     opacity: 1;
     position: relative;
-    /*top: -110px;*/
 }
 
 .card-body {
@@ -117,15 +116,15 @@ img {
 }
 
 .page1 {
-    background-image: url("images/appletes_thumb.png");
+    background-image: url("https://s3.amazonaws.com/pixeloon/portfolio/appletes_thumb.png");
 }
 
 .page2 {
-    background-image: url("images/vision_thumb.png");
+    background-image: url("https://s3.amazonaws.com/pixeloon/portfolio/vision_thumb.png");
 }
 
 .page3 {
-    background-image: url("images/rebel_thumb.png");
+    background-image: url("https://s3.amazonaws.com/pixeloon/portfolio/rebel_thumb.png");
 }
 
 .page1-text, .page2-text, .page3-text {
